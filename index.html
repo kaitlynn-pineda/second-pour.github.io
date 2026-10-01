@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second Pour</title>
+  <meta name="description" content="Second Pour is coming soon.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --ink: #16181d;
+      --muted: #5c6370;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #16181d;
+        --ink: #f2f3f5;
+        --muted: #9aa1ad;
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 1.5rem;
+      box-sizing: border-box;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 10vw, 5rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+    p {
+      margin: 0.75rem 0 0;
+      font-size: clamp(1rem, 3.5vw, 1.25rem);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Second Pour</h1>
+    <p>Coming soon</p>
+  </main>
+</body>
+</html>
